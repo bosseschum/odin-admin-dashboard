@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: "white";
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+
+.sidepanel {
+  display: grid;
+  grid-area: 1 / 1 / 4 / 2;
+  background-color: blue;
+}
+
+.header {
+  display: grid;
+  grid-area: 1 / 2 / 2 / 4;
+  background-color: grey;
+}
+
+.projects {
+  display: grid;
+  grid-area: 2 / 2 / 4 / 3;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+  background-color: red;
+}
+
+.announcements {
+  display: grid;
+  grid-area: 2 / 3 / 3 / 4;
+  background-color: teal;
+}
+
+.trending {
+  display: grid;
+  grid-area: 3 / 3 / 4 / 4;
+  background-color: tan;
+}
