@@ -11,7 +11,7 @@
       <div class="sidepanel">
         <h2>
           <img
-            class="icon"
+            class="icon dash"
             src="./images/view-dashboard.svg"
             alt="Dashboard logo"
           />DASHBOARD
@@ -79,22 +79,40 @@
       <div class="main">
         <div class="header">
           <div class="header-row-1">
-            <img class="icon" src="images/magnify.svg" alt="Magnifying glass" />
-            <input type="text" />
-            <img
-              class="icon"
-              src="images/bell-ring.svg"
-              alt="Notification bell"
-            />
-            <img class="profile-picture small" src="" alt="" />
-            <p id="name">Morgan Oakley</p>
+            <div class="search-unit">
+              <img
+                class="icon"
+                src="images/magnify.svg"
+                alt="Magnifying glass"
+              />
+              <input class="searchbar" type="text" />
+            </div>
+            <div class="user-unit">
+              <img
+                class="icon"
+                src="images/bell-ring.svg"
+                alt="Notification bell"
+              />
+              <img
+                class="profile-picture small"
+                src="images/jake-a-t.jpeg"
+                alt=""
+              />
+              <p class="name">Morgan Oakley</p>
+            </div>
           </div>
           <div class="header-row-2">
-            <img src="" alt="" class="profile-picture large" />
-            <p class="greeting">
-              Hi there, <br />
-              Morgan Oakley (@morgan)
-            </p>
+            <div class="identity">
+              <img
+                src="images/jake-a-t.jpeg"
+                alt=""
+                class="profile-picture large"
+              />
+              <div class="greeter">
+                <p class="greeting">Hi there,</p>
+                <p class="fullname">Morgan Oakley (@morgan)</p>
+              </div>
+            </div>
             <div class="header-actions">
               <button>New</button><button>Upload</button><button>Share</button>
             </div>
